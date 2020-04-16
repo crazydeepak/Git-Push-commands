@@ -1,12 +1,12 @@
-my first text file
-1.txt
-2.txt
-3.txt
+git init .
+git config --global user.name <yourGitHubAccount>
+git config --global user.email <yourGitHubEmailAccount>
+git add .
 
-4.txt
-5.txt
-branch file completed.
+git status
+# edit .gitignore to ignore folder you don't want
 
-hi how r u??
-this is the master copy
+git commit -m "first commit"
+git remote add origin https://github.com/<yourGitHubAccount>/<yourRepo.git>
+git push -u origin master
 
